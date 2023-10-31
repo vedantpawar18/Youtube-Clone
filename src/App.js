@@ -4,9 +4,11 @@ import Sidebar from './Sidebar';
 import Videos from './Videos';
 
 function App() {
-  return (
+  return ( 
+
     <div className="App">
       <Header/>
+      <h1>Hello</h1>
       <div className="main-display" style={{"display" : "flex"}}>
       <Sidebar/>
        <Videos/>
