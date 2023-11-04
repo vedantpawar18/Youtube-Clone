@@ -6,7 +6,7 @@ import Videos from './Videos';
 function App() {
   return ( 
 
-    <div className="App">
+    <div className="App"> 
       <Header/>
       <h1>Hello</h1>
       <div className="main-display" style={{"display" : "flex"}}>
